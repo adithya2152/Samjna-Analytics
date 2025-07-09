@@ -1,0 +1,10 @@
+{
+	"name": "@analytics/interview",
+	"version": "0.0.0",
+	"private": true,
+"scripts": {
+  "dev": ". ../analytics--venv/bin/activate && uvicorn app.main:app --reload --port 8003",
+  "test": ". ../analytics--venv/bin/activate && python app/test.py"
+}
+
+}

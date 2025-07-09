@@ -1,0 +1,8 @@
+*.log
+.env*
+package.json
+Dockerfile
+**/.venv
+**/venv
+**/__pycache__
+

@@ -1,0 +1,623 @@
+2025-07-09 07:58:54,088 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-09 07:58:54,813 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-09 07:58:54,821 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/config.json HTTP/1.1" 200 0
+2025-07-09 07:58:55,499 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-07-09 07:58:55,506 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/generation_config.json HTTP/1.1" 200 0
+2025-07-09 07:58:56,173 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/processor_config.json HTTP/1.1" 404 0
+2025-07-09 07:58:56,401 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/preprocessor_config.json HTTP/1.1" 307 0
+2025-07-09 07:58:56,409 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/preprocessor_config.json HTTP/1.1" 200 0
+2025-07-09 07:58:57,045 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/preprocessor_config.json HTTP/1.1" 307 0
+2025-07-09 07:58:57,055 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/preprocessor_config.json HTTP/1.1" 200 0
+2025-07-09 07:58:57,296 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/preprocessor_config.json HTTP/1.1" 307 0
+2025-07-09 07:58:57,305 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/preprocessor_config.json HTTP/1.1" 200 0
+2025-07-09 07:58:57,540 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-09 07:58:57,549 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/openai/whisper-small/973afd24965f72e36ca33b3055d56a652f456b4d/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-09 07:58:58,026 - DEBUG - https://huggingface.co:443 "HEAD /openai/whisper-small/resolve/main/processor_config.json HTTP/1.1" 404 0
+2025-07-09 07:58:59,134 - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-09 07:58:59,145 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/config.json HTTP/1.1" 200 0
+2025-07-09 07:58:59,849 - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/model.safetensors HTTP/1.1" 404 0
+2025-07-09 07:59:01,446 - WARNING - /home/adithya-bharadwaj/Downloads/analytics/analytics--venv/lib/python3.12/site-packages/timm/models/_factory.py:117: UserWarning: Mapping deprecated model name tf_efficientnet_b0_ns to current tf_efficientnet_b0.ns_jft_in1k.
+  model = create_fn(
+
+2025-07-09 07:59:06,059 - WARNING - /home/adithya-bharadwaj/Downloads/analytics/analytics--venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+
+2025-07-09 07:59:06,059 - WARNING - /home/adithya-bharadwaj/Downloads/analytics/analytics--venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+2025-07-09 07:59:54,724 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:54,724 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:54,724 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,724 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:54,725 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:54,725 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:54,726 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:54,726 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:54,726 - DEBUG - Calling on_part_data with data[0:114237]
+2025-07-09 07:59:54,726 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:54,726 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:54,727 - INFO - [FilenameValid] 1751964715323-1-recording.webm ✅ index: 1
+2025-07-09 07:59:54,824 - INFO - [ValidationPassed] 1751964715323-1-recording.webm ✅ Format: .webm, Size: 0.48MB, Duration: 3.05s
+2025-07-09 07:59:54,824 - INFO - [VideoValid] 1751964715323-1-recording.webm ✅ Successfully validated
+2025-07-09 07:59:54,845 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:55,186 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:55,191 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:55,198 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,199 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:55,199 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:55,199 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,199 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,199 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:55,199 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,199 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:55,200 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:55,200 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,200 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:55,201 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,201 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,202 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:55,202 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,202 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:55,202 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,202 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,203 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:55,203 - DEBUG - Calling on_part_data with data[0:259707]
+2025-07-09 07:59:55,204 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,204 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:55,205 - INFO - [FilenameValid] 1751964715323-2-recording.webm ✅ index: 2
+2025-07-09 07:59:55,350 - INFO - [ValidationPassed] 1751964715323-2-recording.webm ✅ Format: .webm, Size: 0.37MB, Duration: 2.51s
+2025-07-09 07:59:55,350 - INFO - [VideoValid] 1751964715323-2-recording.webm ✅ Successfully validated
+2025-07-09 07:59:55,353 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:55,478 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:55,491 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:55,747 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:55,751 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:55,759 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,760 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,760 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:55,760 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,760 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:55,760 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:55,761 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:55,761 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,761 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,762 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:55,763 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:55,763 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:55,763 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:55,764 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:55,765 - DEBUG - Calling on_part_data with data[0:209768]
+2025-07-09 07:59:55,765 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:55,765 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:55,766 - INFO - [FilenameValid] 1751964715323-3-recording.webm ✅ index: 3
+2025-07-09 07:59:55,904 - INFO - [ValidationPassed] 1751964715323-3-recording.webm ✅ Format: .webm, Size: 0.57MB, Duration: 3.69s
+2025-07-09 07:59:55,904 - INFO - [VideoValid] 1751964715323-3-recording.webm ✅ Successfully validated
+2025-07-09 07:59:55,908 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:56,024 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:56,031 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:56,428 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:56,432 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:56,444 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,444 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:56,444 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:56,444 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,444 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:56,445 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:56,445 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,445 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:56,445 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:56,446 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:56,446 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:56,446 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:56,446 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,446 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:56,446 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:56,447 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:56,448 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:56,448 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:56,448 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:56,449 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:56,450 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:56,451 - DEBUG - Calling on_part_data with data[0:73790]
+2025-07-09 07:59:56,451 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:56,451 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:56,452 - INFO - [FilenameValid] 1751964715323-4-recording.webm ✅ index: 4
+2025-07-09 07:59:56,638 - INFO - [ValidationPassed] 1751964715323-4-recording.webm ✅ Format: .webm, Size: 0.69MB, Duration: 4.11s
+2025-07-09 07:59:56,639 - INFO - [VideoValid] 1751964715323-4-recording.webm ✅ Successfully validated
+2025-07-09 07:59:56,642 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:56,879 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:56,881 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:57,272 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:57,275 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:57,583 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 07:59:57,614 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:57,622 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:57,902 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:57,906 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:57,912 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:57,913 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:57,913 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,913 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:57,914 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,914 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:57,915 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:57,916 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:57,916 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:57,916 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:57,917 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:57,917 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:57,918 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:57,918 - DEBUG - Calling on_part_data with data[0:16658]
+2025-07-09 07:59:57,919 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:57,919 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:57,919 - INFO - [FilenameValid] 1751964715323-5-recording.webm ✅ index: 5
+2025-07-09 07:59:58,090 - INFO - [ValidationPassed] 1751964715323-5-recording.webm ✅ Format: .webm, Size: 0.89MB, Duration: 5.32s
+2025-07-09 07:59:58,091 - INFO - [VideoValid] 1751964715323-5-recording.webm ✅ Successfully validated
+2025-07-09 07:59:58,093 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:58,113 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 07:59:59,083 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,086 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,135 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,142 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,340 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,345 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,350 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,350 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:59,350 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:59,350 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,350 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,350 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:59,351 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:59,352 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:59,352 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,352 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:59,352 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:59,353 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,353 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,354 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:59,354 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:59,355 - DEBUG - Calling on_part_data with data[0:193918]
+2025-07-09 07:59:59,355 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,355 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:59,356 - INFO - [FilenameValid] 1751964715323-6-recording.webm ✅ index: 6
+2025-07-09 07:59:59,364 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 07:59:59,405 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,409 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,519 - INFO - [ValidationPassed] 1751964715323-6-recording.webm ✅ Format: .webm, Size: 0.56MB, Duration: 3.53s
+2025-07-09 07:59:59,519 - INFO - [VideoValid] 1751964715323-6-recording.webm ✅ Successfully validated
+2025-07-09 07:59:59,522 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,618 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,626 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,817 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 07:59:59,821 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 07:59:59,824 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,824 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 07:59:59,824 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 07:59:59,824 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,824 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,824 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 07:59:59,824 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 07:59:59,825 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 07:59:59,826 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 07:59:59,826 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 07:59:59,827 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_part_begin with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 07:59:59,827 - DEBUG - Calling on_header_end with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 07:59:59,827 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 07:59:59,828 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 07:59:59,828 - DEBUG - Calling on_part_data with data[0:91729]
+2025-07-09 07:59:59,828 - DEBUG - Calling on_part_end with no data
+2025-07-09 07:59:59,828 - DEBUG - Calling on_end with no data
+2025-07-09 07:59:59,829 - INFO - [FilenameValid] 1751964715323-7-recording.webm ✅ index: 7
+2025-07-09 07:59:59,971 - INFO - [ValidationPassed] 1751964715323-7-recording.webm ✅ Format: .webm, Size: 0.46MB, Duration: 2.77s
+2025-07-09 07:59:59,971 - INFO - [VideoValid] 1751964715323-7-recording.webm ✅ Successfully validated
+2025-07-09 07:59:59,974 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:00,665 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:00,669 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:00,672 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:01,028 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:01,039 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:01,178 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:01,182 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:01,186 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,187 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 08:00:01,187 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 08:00:01,187 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,187 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,187 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 08:00:01,187 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,187 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,187 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 08:00:01,188 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 08:00:01,188 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,188 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,188 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 08:00:01,188 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,188 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,188 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 08:00:01,188 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 08:00:01,188 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,189 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,189 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 08:00:01,189 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,189 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,189 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 08:00:01,190 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 08:00:01,190 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,190 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,191 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 08:00:01,191 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,191 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,191 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 08:00:01,191 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 08:00:01,191 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,191 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,191 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 08:00:01,191 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,192 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 08:00:01,192 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:01,192 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:01,192 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 08:00:01,193 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:01,194 - DEBUG - Calling on_part_data with data[0:84680]
+2025-07-09 08:00:01,195 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:01,195 - DEBUG - Calling on_end with no data
+2025-07-09 08:00:01,195 - INFO - [FilenameValid] 1751964715323-8-recording.webm ✅ index: 8
+2025-07-09 08:00:01,343 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:01,354 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:01,367 - INFO - [ValidationPassed] 1751964715323-8-recording.webm ✅ Format: .webm, Size: 0.45MB, Duration: 2.71s
+2025-07-09 08:00:01,368 - INFO - [VideoValid] 1751964715323-8-recording.webm ✅ Successfully validated
+2025-07-09 08:00:01,371 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:01,931 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:02,408 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:02,428 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:02,623 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:03,778 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:03,779 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:04,158 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:04,160 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:04,166 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,166 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 08:00:04,166 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 08:00:04,166 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,166 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,166 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 08:00:04,166 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_data with data[194:195]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_field with data[233:252]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_value with data[254:283]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_data with data[287:299]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_field with data[337:356]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_value with data[358:389]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_data with data[393:398]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 08:00:04,167 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_value with data[546:612]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_field with data[614:626]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_value with data[628:638]
+2025-07-09 08:00:04,168 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,168 - DEBUG - Calling on_part_data with data[642:126949]
+2025-07-09 08:00:04,169 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,169 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,170 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,170 - DEBUG - Calling on_part_data with data[0:185094]
+2025-07-09 08:00:04,170 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,170 - DEBUG - Calling on_end with no data
+2025-07-09 08:00:04,179 - INFO - [FilenameValid] 1751964715323-9-recording.webm ✅ index: 9
+2025-07-09 08:00:04,343 - INFO - [ValidationPassed] 1751964715323-9-recording.webm ✅ Format: .webm, Size: 1.05MB, Duration: 6.25s
+2025-07-09 08:00:04,343 - INFO - [VideoValid] 1751964715323-9-recording.webm ✅ Successfully validated
+2025-07-09 08:00:04,346 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:04,626 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:04,630 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:04,640 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,640 - DEBUG - Calling on_header_field with data[36:55]
+2025-07-09 08:00:04,640 - DEBUG - Calling on_header_value with data[57:85]
+2025-07-09 08:00:04,640 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,640 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,640 - DEBUG - Calling on_part_data with data[89:102]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_field with data[140:159]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_value with data[161:190]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_part_data with data[194:196]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_field with data[234:253]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_value with data[255:284]
+2025-07-09 08:00:04,641 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_data with data[288:300]
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_header_field with data[338:357]
+2025-07-09 08:00:04,642 - DEBUG - Calling on_header_value with data[359:390]
+2025-07-09 08:00:04,642 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_data with data[394:398]
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,642 - DEBUG - Calling on_header_field with data[436:455]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_value with data[457:479]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_part_data with data[483:487]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_part_begin with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_field with data[525:544]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_value with data[546:613]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_field with data[615:627]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_value with data[629:639]
+2025-07-09 08:00:04,643 - DEBUG - Calling on_header_end with no data
+2025-07-09 08:00:04,643 - DEBUG - Calling on_headers_finished with no data
+2025-07-09 08:00:04,644 - DEBUG - Calling on_part_data with data[643:126949]
+2025-07-09 08:00:04,645 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,645 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,646 - DEBUG - Calling on_part_data with data[0:262144]
+2025-07-09 08:00:04,647 - DEBUG - Calling on_part_data with data[0:178581]
+2025-07-09 08:00:04,647 - DEBUG - Calling on_part_end with no data
+2025-07-09 08:00:04,647 - DEBUG - Calling on_end with no data
+2025-07-09 08:00:04,649 - INFO - [FilenameValid] 1751964715323-10-recording.webm ✅ index: 10
+2025-07-09 08:00:04,842 - INFO - [ValidationPassed] 1751964715323-10-recording.webm ✅ Format: .webm, Size: 1.04MB, Duration: 6.26s
+2025-07-09 08:00:04,843 - INFO - [VideoValid] 1751964715323-10-recording.webm ✅ Successfully validated
+2025-07-09 08:00:04,845 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:04,922 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:04,928 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,010 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:05,118 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:05,121 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,376 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:05,389 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,399 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:05,410 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,660 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:05,665 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,697 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:05,700 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:05,936 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:05,966 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
+2025-07-09 08:00:06,302 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/log HTTP/1.1" 400 65
+2025-07-09 08:00:06,304 - DEBUG - Starting new HTTPS connection (1): core.samjna.co.in:443
+2025-07-09 08:00:06,606 - DEBUG - https://core.samjna.co.in:443 "POST /core-service/v1/analytics/error HTTP/1.1" 400 89
